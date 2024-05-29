@@ -1,0 +1,21 @@
+
+{
+    "pagination_dto": {
+        "current": 0,
+        "pageSize": 50
+    },
+    "project_search_dto": {
+        "ministry_id": null,
+        "division_id": null,
+        "agency_id": null,
+        "project_type_id": null,
+        "project_status_id": [
+            "Projectstatus_Closed"
+        ],
+        "district_id": null,
+        "upazilla_id": null,
+        "is_fast_track": null,
+        "is_own_funded": null,
+        "fiscal_year": "2023-24"
+    }
+}

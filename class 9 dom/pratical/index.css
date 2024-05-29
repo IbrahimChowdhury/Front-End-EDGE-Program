@@ -1,0 +1,32 @@
+*{
+    margin:20px;
+}
+
+.plus{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-size: xx-large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.plus:hover{
+    background-color: black;
+}
+.minus{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-size: xx-large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.minus:hover{
+    background-color: black;
+}
+
+.number{
+    font-size: xx-large;
+}

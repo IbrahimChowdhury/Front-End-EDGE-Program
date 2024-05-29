@@ -1,0 +1,135 @@
+.boxModel{
+    border: 10px solid rgb(125, 143, 237);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 30px  ; 
+    background-color: rgb(182, 221, 198);
+}
+
+.display1{
+ background-color: rgb(120, 198, 198);
+ padding: 10px;
+ display: inline;
+}
+
+.display2{
+    background-color: rgb(117, 173, 173);
+    padding: 10px;
+    
+}
+
+.position1{
+    
+    border: 2px solid rgb(15, 10, 10);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.position2{
+    border: 2px solid rgb(15, 10, 10);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px; 
+}
+
+
+.position3{
+    border: 3px solid black;
+    margin: 20px;
+    padding: 10px;
+    height: 400px;
+    position: relative;
+}
+
+.position4{
+    border: 2px solid black;
+    width: 200px;
+    position: absolute;
+     
+}
+
+.flexItem{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    margin: 5px;
+    color: aliceblue ;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+
+.flexbox{
+    display: flex;
+    height: 300px;
+    background-color: rgb(167, 225, 249);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gridlayout{
+    display: grid;
+    /* grid-template-columns:100px 100px 100px 100px 100px 100px ;
+    grid-template-rows:100px 100px 100px 100px 100px 100px; */
+
+    grid-template-columns: repeat(6, 100px) ;
+    grid-template-rows: repeat(6,100px);
+}
+
+
+.gridItems{
+background-color: brown;
+margin: 2px;
+font-size: xx-large;
+color: aliceblue;
+text-align: center;
+}
+
+
+.gridItem1{
+    /* grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 7; */
+
+    /* grid-area: row start/ column start/ row end/ column end  ; */
+    grid-area: 1/1/2/7;
+}
+
+.gridItem2{
+        grid-area:2/1/6/5 ;
+}
+
+.gridItem3{
+    grid-area:2/5/4/7 ;
+}
+
+.gridItem4{
+    grid-area: 4/5/6/7;
+}
+.gridItem5{
+    grid-area: 6/1/7/7;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .gridItems{
+        background-color: rgb(60, 100, 87);
+    }
+    .gridItem2{
+        grid-area:2/1/4/7;
+        background-color: rgb(41, 41, 55);
+        
+    }
+    .gridItem3{
+        grid-area:4/1/6/4 ;
+    }
+    .gridItem4{
+        grid-area:4/4/6/7 ;
+    }
+}
+
+
